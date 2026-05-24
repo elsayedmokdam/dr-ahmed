@@ -42,7 +42,7 @@ export default function Navbar() {
             </div>
             <div>
               <h1 className="text-2xl font-bold">
-                د. سيف <span className="text-primary">حازم</span>
+                د. أحمد <span className="text-primary">محمد</span>
               </h1>
               <div className="flex items-center gap-2">
                 <span className="relative flex h-2 w-2">

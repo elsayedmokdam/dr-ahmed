@@ -172,16 +172,6 @@ export function DoctorContextProvider({ children }: { children: ReactNode }) {
   // Clinic working hours: Saturday–Thursday 09:00–21:00, Friday 14:00–21:00
   const getAvailableTimeSlots = (date: string): string[] => {
     const allTimeSlots = [
-      "09:00 ص",
-      "09:30 ص",
-      "10:00 ص",
-      "10:30 ص",
-      "11:00 ص",
-      "11:30 ص",
-      "12:00 م",
-      "12:30 م",
-      "01:00 م",
-      "01:30 م",
       "02:00 م",
       "02:30 م",
       "03:00 م",
@@ -195,8 +185,6 @@ export function DoctorContextProvider({ children }: { children: ReactNode }) {
       "07:00 م",
       "07:30 م",
       "08:00 م",
-      "08:30 م",
-      "09:00 م",
     ];
 
     const bookedSlots = bookings

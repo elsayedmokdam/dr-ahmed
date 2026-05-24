@@ -131,7 +131,7 @@ export default function GalleryPage() {
           {[
             { icon: <FaUserDoctor />, title: "+2000", subtitle: "مريض تمت رعايتهم" },
             { icon: <FaStar />, title: "4.9", subtitle: "تقييم المرضى" },
-            { icon: <FaHospital />, title: "15+", subtitle: "سنة خبرة طبية" },
+            { icon: <FaHospital />, title: "5+", subtitle: "سنة خبرة طبية" },
             { icon: <FaAward />, title: "100%", subtitle: "رضا المرضى" },
           ].map((item, index) => (
             <motion.div

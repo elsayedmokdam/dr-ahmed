@@ -63,12 +63,8 @@ export default function ImportantInfo() {
           <h3 className="font-bold mb-4">مواعيد العيادة</h3>
           <div className="space-y-2 text-sm">
             <div className="flex justify-between">
-              <span className="text-muted-foreground">السبت - الخميس</span>
-              <span className="font-medium">09:00 ص - 09:00 م</span>
-            </div>
-            <div className="flex justify-between">
-              <span className="text-muted-foreground">الجمعة</span>
-              <span className="font-medium">02:00 م - 09:00 م</span>
+              <span className="text-muted-foreground">سبت - اثنين - أربعاء</span>
+              <span className="font-medium">02:00 م - 8:00 م</span>
             </div>
             <div className="mt-3 flex justify-between text-muted-foreground text-xs border-t border-border pt-3">
               <span>راجع حالة العيادة في أعلى الصفحة</span>

@@ -19,13 +19,32 @@ const slotToMinutes = (slot: string): number => {
   return hours * 60 + minutes;
 };
 
+const AllowedDays = [1,3,6];
+// 1 => Monday
+// 3 => Wednesday
+// 6 => Saturday
+
+const isAllowedDay = (dateString: string) => {
+  const day = new Date(dateString);
+  console.log(day.getDay())
+  return AllowedDays.includes(day.getDay());
+}
+
 export function BookingForm() {
   const { services, bookings, addBooking, getAvailableTimeSlots, shopStatus } =
     useDoctor();
 
-  const [selectedDate, setSelectedDate] = useState(
-    format(new Date(), "yyyy-MM-dd"),
-  );
+  const getNextAvailableDate = () => {
+    const date = new Date();
+
+    while (!AllowedDays.includes(date.getDay())) {
+      date.setDate(date.getDate() + 1);
+    }
+
+    return format(date, "yyyy-MM-dd");
+  };
+
+  const [selectedDate, setSelectedDate] = useState(getNextAvailableDate());
   const [selectedTime, setSelectedTime] = useState("");
   const [customerName, setCustomerName] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -168,7 +187,16 @@ export function BookingForm() {
           <input
             type="date"
             value={selectedDate}
-            onChange={(e) => setSelectedDate(e.target.value)}
+            onChange={(e) => {
+              const value = e.target.value;
+              
+              if(!isAllowedDay(value)) {
+                notify.error("الأيام المتاحة هي السبت و الاثنين و الأربعاء فقط");
+                return;
+              }
+
+              setSelectedDate(value);
+            }}
             min={format(new Date(), "yyyy-MM-dd")}
             required
             className="w-full rounded-xl border border-border bg-input-background px-4 py-3 text-gray-900 transition-all focus:ring-2 focus:ring-primary focus:outline-none"
