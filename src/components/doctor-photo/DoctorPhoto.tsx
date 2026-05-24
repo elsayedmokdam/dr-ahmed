@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
-import doctorImage from "@/assets/images/doctor.png";
+import doctorImage from "@/assets/Images/doctor.png";
 
 export default function DoctorPhoto() {
   return (
