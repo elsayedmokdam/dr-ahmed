@@ -3,22 +3,22 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://elsayed-mokdam-portfolio.vercel.app/",
+      url: "https://dr-ahmed-mohamed.vercel.app/",
       lastModified: new Date(),
       priority: 1,
     },
     {
-      url: "https://elsayed-mokdam-portfolio.vercel.app/projects",
+      url: "https://dr-ahmed-mohamed.vercel.app/gallery",
       lastModified: new Date(),
       priority: 0.9,
     },
     {
-      url: "https://elsayed-mokdam-portfolio.vercel.app/resume",
+      url: "https://dr-ahmed-mohamed.vercel.app/booking",
       lastModified: new Date(),
       priority: 0.8,
     },
     {
-      url: "https://elsayed-mokdam-portfolio.vercel.app/contact",
+      url: "https://dr-ahmed-mohamed.vercel.app/services",
       lastModified: new Date(),
       priority: 0.8,
     },

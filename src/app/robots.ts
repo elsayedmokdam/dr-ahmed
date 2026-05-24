@@ -7,7 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
     },
 
-    sitemap:
-      "https://elsayed-mokdam-portfolio.vercel.app/sitemap.xml",
+    sitemap: "https://dr-ahmed-mohamed.vercel.app/sitemap.xml",
   };
 }

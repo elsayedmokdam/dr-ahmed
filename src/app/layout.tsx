@@ -15,7 +15,7 @@ const cairo = Cairo({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://doctor-clinic.vercel.app/"),
+  metadataBase: new URL("https://dr-ahmed-mohamed.vercel.app/"),
 
   title: {
     default: "عيادة د. أحمد محمد",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     },
   },
 
-  alternates: { canonical: "" },
+  alternates: { canonical: "https://dr-ahmed-mohamed.vercel.app/" },
 
   openGraph: {
     title: "عيادة د. أحمد محمد | Doctor Clinic",
