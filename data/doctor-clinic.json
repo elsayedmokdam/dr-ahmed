@@ -1,0 +1,40 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "nameAr": "كشف عام",
+      "price": 150,
+      "durationMinutes": 20
+    },
+    {
+      "id": "2",
+      "nameAr": "متابعة مريض",
+      "price": 100,
+      "durationMinutes": 15
+    },
+    {
+      "id": "3",
+      "nameAr": "استشارة طبية",
+      "price": 200,
+      "durationMinutes": 30
+    },
+    {
+      "id": "4",
+      "nameAr": "فحص شامل",
+      "price": 300,
+      "durationMinutes": 45
+    },
+    {
+      "id": "5",
+      "nameAr": "تقرير طبي",
+      "price": 100,
+      "durationMinutes": 10
+    }
+  ],
+  "bookings": [],
+  "isOwner": false,
+  "clinicStatus": {
+    "isOpen": true,
+    "lastUpdated": 1779317607429
+  }
+}
