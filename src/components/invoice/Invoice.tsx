@@ -145,10 +145,10 @@ export function Invoice({ booking, onClose }: InvoiceProps) {
 
                 <div className="flex flex-col items-center justify-center gap-3 text-sm text-muted-foreground md:flex-row">
                   <Link
-                    href="tel:01069341668"
+                    href="tel:01552362037"
                     className="transition-colors duration-300 hover:text-primary hover:underline"
                   >
-                    📞 01069341668
+                    📞 01552362037
                   </Link>
                   <span className="hidden md:block">•</span>
                   <p>
