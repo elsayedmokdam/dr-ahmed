@@ -7,6 +7,7 @@ import { Toaster } from "react-hot-toast";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import { DoctorContextProvider } from "./_context/DoctorContextProvider";
+import drPhoto from "@/assets/Images/doctor.png"
 
 const cairo = Cairo({
   variable: "--font-sans",
@@ -17,12 +18,12 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://doctor-clinic.vercel.app/"),
 
   title: {
-    default: "عيادة د. سيف حازم",
-    template: "%s | د. سيف حازم",
+    default: "عيادة د. أحمد محمد",
+    template: "%s | د. أحمد محمد",
   },
 
   keywords: [
-    "د. سيف حازم",
+    "د. أحمد محمد",
     "عيادة طبية",
     "طبيب",
     "حجز موعد",
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
     "طبيب متخصص",
   ],
 
-  authors: [{ name: "د. سيف حازم" }],
+  authors: [{ name: "د. أحمد محمد" }],
 
   creator: "Elsayed Mokdam",
   publisher: "Elsayed Mokdam",
@@ -56,20 +57,36 @@ export const metadata: Metadata = {
   alternates: { canonical: "" },
 
   openGraph: {
-    title: "عيادة د. سيف حازم | Doctor Clinic",
+    title: "عيادة د. أحمد محمد | Doctor Clinic",
     description:
-      "عيادة د. سيف حازم — رعاية طبية احترافية بأعلى مستويات الجودة. احجز موعدك الآن.",
-    url: "",
-    siteName: "عيادة د. سيف حازم",
+      "عيادة د. أحمد محمد — رعاية طبية احترافية بأعلى مستويات الجودة. احجز موعدك الآن.",
+    url: drPhoto.src,
+    siteName: "عيادة د. أحمد محمد",
     locale: "ar_EG",
     type: "website",
+
+    images: [
+      {
+        url: drPhoto.src,
+        width: 800,
+        height: 600,
+        alt: "عيادة د. أحمد محمد",
+      },
+    ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "عيادة د. سيف حازم | Doctor Clinic",
+    title: "عيادة د. أحمد محمد | Doctor Clinic",
     description:
-      "عيادة د. سيف حازم — رعاية طبية احترافية بأعلى مستويات الجودة. احجز موعدك الآن.",
+      "عيادة د. أحمد محمد — رعاية طبية احترافية بأعلى مستويات الجودة. احجز موعدك الآن.",
+    images: [drPhoto.src],
+  },
+
+  icons: {
+    icon: drPhoto.src,
+    apple: drPhoto.src,
+    shortcut: drPhoto.src,
   },
 };
 
