@@ -83,7 +83,7 @@ export default function HomeSlider() {
                   >
                     <FaStethoscope className="text-blue-300 w-3.5 h-3.5 flex-shrink-0" />
                     <span className="text-xs font-medium text-blue-100 sm:text-sm">
-                      عيادة طبية متخصصة · منذ 2010
+                      عيادة طبية متخصصة 
                     </span>
                   </motion.div>
 
