@@ -257,7 +257,7 @@ export default function HomeSlider() {
                   className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1.5 backdrop-blur-xl shadow-lg"
                 >
                   <span className="text-sm font-medium text-white">
-                    ⭐ خبرة تتجاوز 15 عاماً
+                    ⭐ خبرة تتجاوز 5 أعوام
                   </span>
                 </motion.div>
 

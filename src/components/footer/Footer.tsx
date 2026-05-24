@@ -9,7 +9,7 @@ export default function Footer() {
         {/* Brand */}
         <div className="space-y-4">
           <h2 className="text-2xl font-extrabold text-primary">
-            عيادة د. سيف حازم
+            عيادة د. أحمد محمد
           </h2>
           <p className="text-sm leading-7 text-muted-foreground">
             رعاية طبية احترافية بأعلى مستويات الجودة والاهتمام بصحتك. نسعى
@@ -64,7 +64,7 @@ export default function Footer() {
       {/* Bottom */}
       <div className="border-t border-border py-5">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-6 text-sm text-muted-foreground md:flex-row">
-          <p>© 2026 عيادة د. سيف حازم - جميع الحقوق محفوظة</p>
+          <p>© 2026 عيادة د. أحمد محمد - جميع الحقوق محفوظة</p>
           <p>
             تم التصميم والتطوير بواسطة{" "}
             <span className="font-bold text-primary">Elsayed Hamed</span>

@@ -45,7 +45,7 @@ export function Invoice({ booking, onClose }: InvoiceProps) {
                   <FaStethoscope className="w-10 h-10 text-primary" />
                 </div>
                 <h1 className="text-3xl font-bold text-primary mb-1">
-                  عيادة د. سيف حازم
+                  عيادة د. أحمد محمد
                 </h1>
                 <p className="text-muted-foreground text-sm">إيصال حجز موعد طبي</p>
               </div>

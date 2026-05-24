@@ -34,7 +34,7 @@ export default function ServicesPage() {
             خدماتنا الطبية الاحترافية
           </span>
           <h1 className="mb-6 text-4xl font-extrabold md:text-6xl">
-            خدمات عيادة د. سيف حازم
+            خدمات عيادة د. أحمد محمد
           </h1>
           <p className="text-lg leading-8 text-muted-foreground">
             نقدم لك رعاية طبية متكاملة بأحدث الأساليب العلمية وأعلى مستويات الجودة،

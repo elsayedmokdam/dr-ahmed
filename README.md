@@ -1,4 +1,4 @@
-# عيادة د. سيف حازم — Doctor Clinic App
+# عيادة د. أحمد محمد — Doctor Clinic App
 
 A Next.js doctor clinic booking web application (converted from a barber shop system).
 
