@@ -9,7 +9,6 @@ import {
   FaReceipt,
   FaTrash,
   FaLock,
-  FaPhone,
   FaPhoneVolume,
 } from "react-icons/fa6";
 
@@ -105,7 +104,6 @@ export default function BookingCard({
             </div>
             <div>
               <h3 className="text-xl font-bold">{booking.customerName}</h3>
-              <p className="text-xs text-muted-foreground">مريض</p>
             </div>
           </div>
 
