@@ -44,14 +44,14 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-4 text-2xl">
             <Link
-              href="tel:01000000000"
+              href="tel:01028340399"
               target="_blank"
               className="transition hover:scale-110 hover:text-green-500"
             >
               <FaWhatsapp size={20} />
             </Link>
             <Link
-              href="tel:01000000000"
+              href="tel:01028340399"
               target="_blank"
               className="transition hover:scale-110 hover:text-primary"
             >
@@ -67,7 +67,7 @@ export default function Footer() {
           <p>© 2026 عيادة د. أحمد محمد - جميع الحقوق محفوظة</p>
           <p>
             تم التصميم والتطوير بواسطة{" "}
-            <span className="font-bold text-primary">Elsayed Hamed</span>
+            <span className="font-bold text-primary">Elsayed Mohamed</span>
           </p>
         </div>
       </div>
